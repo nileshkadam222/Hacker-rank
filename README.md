@@ -1,6 +1,6 @@
-# Hacker-rank problem solving###
+# Hacker-rank problem solving ###
 
-                        Problem 1
+Problem 1
 
 https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 
