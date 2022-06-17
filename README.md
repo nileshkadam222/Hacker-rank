@@ -1,10 +1,9 @@
 # Hacker-rank problem solving ###
 
-Problem 1
-
+**Problem 1**
 https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 
-Solution :  
+**Solution :** 
 https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/MariaBasketball.java
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
