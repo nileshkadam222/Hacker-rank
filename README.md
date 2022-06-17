@@ -5,6 +5,7 @@ Problem 1
 https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 
 Solution :  
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/MariaBasketball.java
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
     List<Integer> highestScore = new ArrayList<>();
