@@ -53,6 +53,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true
 
 **Solution :**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/DivisibleSumPairs.java
 
     class Result {
         public static int divisibleSumPairs(int n, int k, List<Integer> ar) {
