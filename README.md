@@ -3,7 +3,7 @@
 **Problem 1**
 https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 
-**Solution :** 
+**Solution :**
 https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/MariaBasketball.java
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
@@ -30,3 +30,20 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
         return Arrays.asList(highestCount.get(),lowestCount.get());
     }
 
+**Problem 2 : Subarray Division**
+https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
+
+**Solution:**
+
+    class Result {
+    public static int birthday(List<Integer> s, int d, int m) {
+        // Write your code here
+        int count =0;
+        for(int i=0;i<=s.size()-m;i++){
+            if(d== s.subList(i,i+m).stream().mapToInt(Integer::intValue).sum()){
+                count++;
+            }
+        }
+        return count;
+    }
+}
