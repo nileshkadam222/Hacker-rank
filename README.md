@@ -70,3 +70,35 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
             return counter;
         } 
     }
+
+
+**Problem: 4**
+https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
+
+**Solution:**
+
+    class Result {
+        public static int migratoryBirds(List<Integer> arr) {
+            // Write your code here
+            Map<Integer,Integer> hp = new HashMap<>();
+    
+                    arr.stream().forEach(p->{
+                        if(hp.containsKey(p)){
+                            hp.put(p,(hp.get(p)+1));
+                        }else {
+                            hp.put(p,1);
+                        }
+                    });
+    
+                    int maxCount =0,res=-1;
+                    for(Map.Entry<Integer,Integer> entry : hp.entrySet()){
+                        if (maxCount < entry.getValue())
+                        {
+                            res = entry.getKey();
+                            maxCount = entry.getValue();
+                        }
+                    }
+                return res;
+        }
+    
+    }
