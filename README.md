@@ -76,8 +76,9 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
 
 **Solution:**
-
-    class Result {
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/MigratoryBirds.java
+   
+     class Result {
         public static int migratoryBirds(List<Integer> arr) {
             // Write your code here
             Map<Integer,Integer> hp = new HashMap<>();
