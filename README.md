@@ -72,7 +72,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
     }
 
 
-**Problem: 4**
+**Problem 4 :migratoryBirds**
 https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
 
 **Solution:**
