@@ -108,11 +108,6 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 
 **Solution:**
-
-**Problem 5: day of the programmer**
-https://www.hackerrank.com/challenges/day-of-the-programmer/problem
-
-**Solution:**
 https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/DayoftheProgrammer.java
 
     class Result5 {
