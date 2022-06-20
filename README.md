@@ -127,29 +127,3 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
              }
         }
     }
-
-
-    class Result5 {
-        public static String dayOfProgrammer(int year) {
-            // Write your code here
-            if (year < 1918) {
-                return year%4==0 ? "12.09."+year : "13.09."+year;
-            } else if (year == 1918) {
-                return "26.09."+year;
-            } else {
-                return (year % 4 == 0 && year % 100 != 0)|| year%400 == 0 ? "12.09."+year : "13.09."+year;
-             }
-        }
-    }
-    class Result5 {
-        public static String dayOfProgrammer(int year) {
-            // Write your code here
-            if (year < 1918) {
-                return year%4==0 ? "12.09."+year : "13.09."+year;
-            } else if (year == 1918) {
-                return "26.09."+year;
-            } else {
-                return (year % 4 == 0 && year % 100 != 0)|| year%400 == 0 ? "12.09."+year : "13.09."+year;
-             }
-        }
-    }
