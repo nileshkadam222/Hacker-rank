@@ -29,7 +29,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 
         return Arrays.asList(highestCount.get(),lowestCount.get());
     }
-
+---
 **Problem 2 : Subarray Division**
 https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
 
@@ -48,7 +48,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
         return count;
      }
     }
-
+----------------
 **Problem 3 : Divisible Sum Pairs**
 https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true
 
@@ -71,7 +71,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
         } 
     }
 
-
+------------
 **Problem 4 :migratoryBirds**
 https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
 
@@ -104,6 +104,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
     
     }
 
+----
 **Problem 5: day of the programmer**
 https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 
@@ -120,5 +121,28 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
             } else {
                 return (year % 4 == 0 && year % 100 != 0)|| year%400 == 0 ? "12.09."+year : "13.09."+year;
              }
+----
+**Problem 6:Bill Division**
+https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
+
+**Solution**
+
+    class Result6 {
+        public static void bonAppetit(List<Integer> bill, int k, int b) {
+            // Write your code here
+            int bActualBill =0;
+            for(int i=0;i<bill.size();i++){
+                if(i != k){
+                    bActualBill+=bill.get(i);
+                }
+            }
+            bActualBill = bActualBill/2;
+            if(bActualBill==b){
+                System.out.println("Bon Appetit");
+            }else{
+                System.out.println(b-bActualBill);
+            }
+    
         }
+    
     }
