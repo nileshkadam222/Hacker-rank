@@ -146,3 +146,53 @@ https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
         }
     
     }
+---
+**Problem 7: Sales By March**
+https://www.hackerrank.com/challenges/sock-merchant/problem
+
+**Solution:**
+
+**Solution with HashMap**
+
+    class Result {
+        public static int sockMerchant(int n, List<Integer> ar) {
+            // Write your code here
+            Map<Integer, Double> salesMap = new HashMap<>();
+            ar.stream().forEach(a->{
+                if(salesMap.containsKey(a)){
+                    double valueCounter = salesMap.get(a);
+                    double ans = valueCounter+0.5;
+                    salesMap.put(a,valueCounter+0.5);
+                }else{
+                    salesMap.put(a,0.5);
+                }
+            });
+            int sum = 0;
+            for(Map.Entry<Integer,Double> a:salesMap.entrySet()){
+                double floerValue = Math.floor(a.getValue());
+                    sum +=floerValue;
+            }
+            return sum;
+        }
+    
+    }
+
+**Solution with set**
+
+    class Result {
+        public static int sockMerchant(int n, List<Integer> ar) {
+            // Write your code here
+            HashSet<Integer> salesMap = new HashSet<>();
+            AtomicInteger pairCounter = new AtomicInteger();
+            ar.stream().forEach(a->{
+                if(!salesMap.contains(a)){
+                    salesMap.add(a);
+                }else{
+                    pairCounter.getAndIncrement();
+                    salesMap.remove(a);
+                }
+            });
+            return pairCounter.get();
+        }
+    
+    }
