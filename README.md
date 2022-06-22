@@ -150,9 +150,8 @@ https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
 **Problem 7: Sales By March**
 https://www.hackerrank.com/challenges/sock-merchant/problem
 
-**Solution:**
-
-**Solution with HashMap**
+**Solution with HashMap :**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/SalesbyMatch.java
 
     class Result {
         public static int sockMerchant(int n, List<Integer> ar) {
@@ -177,7 +176,8 @@ https://www.hackerrank.com/challenges/sock-merchant/problem
     
     }
 
-**Solution with set**
+**Solution with set :**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/SalesbyMatchHashSet.java
 
     class Result {
         public static int sockMerchant(int n, List<Integer> ar) {
@@ -196,3 +196,5 @@ https://www.hackerrank.com/challenges/sock-merchant/problem
         }
     
     }
+
+---
