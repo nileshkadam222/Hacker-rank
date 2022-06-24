@@ -205,7 +205,7 @@ Dhttps://www.hackerrank.com/challenges/drawing-book/problem
 **Solution:**
 https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/DrawingBook.java
 
-    class Result9 { 
+    class Result { 
         public static int pageCount(int n, int p) {
             // Write your code here
             int fromFront = p/2;
@@ -215,3 +215,30 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
         }
     
     }
+---
+**Problem 9: counting-valleys**
+https://www.hackerrank.com/challenges/counting-valleys/problem
+
+**Solution:**
+
+    class Result {
+        public static int countingValleys(int steps, String path) {
+            // Write your code here
+            int alt =0,valley=0;
+            for(int i=0;i<path.length();i++){
+                char direction = path.charAt(i);
+                if(direction=='U'){
+                    alt++;
+                    if(alt==0){
+                        valley++;
+                    }
+                }else {
+                    alt--;
+                }
+            }
+            return valley;
+        }
+    
+    }
+
+---
