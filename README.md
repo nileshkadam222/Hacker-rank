@@ -203,6 +203,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 Dhttps://www.hackerrank.com/challenges/drawing-book/problem
 
 **Solution:**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/DrawingBook.java
 
     class Result9 { 
         public static int pageCount(int n, int p) {
