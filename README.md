@@ -198,3 +198,19 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
     }
 
 ---
+
+**Problem 8 : drawing-book  :**
+Dhttps://www.hackerrank.com/challenges/drawing-book/problem
+
+**Solution:**
+
+    class Result9 { 
+        public static int pageCount(int n, int p) {
+            // Write your code here
+            int fromFront = p/2;
+            int fromBack = (n-p)/2;
+    
+            return Math.min(fromFront,fromBack);
+        }
+    
+    }
