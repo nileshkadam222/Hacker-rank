@@ -246,7 +246,8 @@ https://www.hackerrank.com/challenges/counting-valleys/problem
 **Problem 9: Electronics Shop**
 https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true
 
-**Solution :** 
+**Solution :**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/ElectronicsShop.java
 
     public class ElectronicsShop {
     public static void main(String[] args) {
