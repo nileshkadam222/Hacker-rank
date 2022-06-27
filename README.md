@@ -277,6 +277,7 @@ https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Alg
 https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
 
 **Solution :**
+https://github.com/nileshkadam222/Hacker-rank/blob/main/src/hacker/rank/java/Algorithms/CatsAndMouse.java
 
     public class CatsAndMouse {
     
